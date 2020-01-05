@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/play2-maven-plugin/play2-maven-test-projects
+    working_directory: ~/gslowikowski/circleci-openjdk-node
 
     environment:
       _JAVA_OPTIONS: -Xms512m -Xmx1024m
